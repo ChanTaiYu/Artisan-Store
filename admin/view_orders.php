@@ -186,7 +186,7 @@ if (isset($_SESSION['user_admin_id']) && $_SESSION['user_admin_id'] != null) {
                                                 <td><?php echo $res['users_id'];?></td>
                                                 <td><?php echo $res['delivery_date'];?></td>
                                                 <td><?php echo $res['payment_method'];?></td>
-                                                <td>Rs. <?php echo $res['total_amount'];?></td>
+                                                <td>RM <?php echo $res['total_amount'];?></td>
                                                 <td>
                                                     <button data-toggle="modal" data-target="#exampleModal" class="btn btn-space btn-primary" onclick="edit_orders(<?php echo $res['orders_id'];?>)">Edit</button>
                                                     <button onclick="delete_orders(<?php echo $res['orders_id'];?>)" class="btn btn-space btn-secondary">DELETE</button>

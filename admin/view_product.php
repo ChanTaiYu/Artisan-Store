@@ -184,7 +184,7 @@ if (isset($_SESSION['user_admin_id']) && $_SESSION['user_admin_id'] != null) {
                                                 <td><?php echo $i++;?></td>
                                                 <td><?php echo $res['product_name'];?></td>
                                                 <td><?php echo $res['category_name'];?></td>
-                                                <td>Rs. <?php echo $res['product_price'];?></td>
+                                                <td>RM <?php echo $res['product_price'];?></td>
                                                 <td>
                                                 	<?php
                                                 	$file_array = explode(', ', $res['product_image']);
